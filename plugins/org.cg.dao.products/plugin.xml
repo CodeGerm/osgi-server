@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+   <extension-point id="org.cg.dao.startup" name="Auto Start" schema="schema/org.cg.dao.startup.exsd"/>
+
+   <extension
+         id="daoFramework"
+         name="Dao Framework"
+         point="org.eclipse.core.runtime.products">
+      <product
+            application="org.cg.dao.webcontainer.application"
+            name="DAO Framework">
+         <property
+               name="appName"
+               value="DAO Framework">
+         </property>
+      </product>
+   </extension>
+
+</plugin>

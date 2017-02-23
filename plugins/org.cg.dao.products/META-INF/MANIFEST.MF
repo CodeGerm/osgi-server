@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Product
+Bundle-SymbolicName: org.cg.dao.products;singleton:=true
+Bundle-Version: 1.0.0
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Require-Bundle: org.eclipse.core.runtime;bundle-version="3.8.0",
+ org.cg.dao.logging;bundle-version="1.0.0"
+Bundle-ActivationPolicy: lazy
+Bundle-Activator: org.cg.dao.products.Activator
